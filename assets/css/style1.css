@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* CART.PHP CSS */
+.store .nav{
+    background-color: rgb(230, 195, 146);
+    height: 80px;
+    padding: 20px 40px;
+}
+    .store .nav h1, .store .nav h2{
+    color: #444;
+    text-align: center;
+    }
+        .store .nav p{
+            position: absolute;
+            right: 100px;
+            top: 30px;
+            background-color: rgb(211, 225, 238);
+            padding: 15px 20px;
+            color: #444;
+        }
+            .store .nav a{
+                text-decoration: none;
+                font-weight: bolder;
+                color: #444;
+        }   
+
+
+.store .items{
+    background-color: rgb(211, 225, 238);
+    height: 337px;
+    padding: 100px;
+}
+    .store .items form{
+        display: inline-block;
+        margin-left: 100px;
+    }
+        .store .items .error{
+            color: red;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+            .store .items .success{
+                color: green;
+                text-align: center;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+                .store .items form .label{
+                    text-align: center;
+                }
+                    .store .items form input[type=number]{
+                        margin-left: 80px;
+                        width: 30px;
+                        height: 20px;
+                        padding: 2px;
+                    }
+                        .store .items form input[type=submit]{
+                            padding: 5px;
+                            color: #111;
+                            background-color: gray;
+                            border: none;
+                        } 
+
+/* CHECKOUT.PHP CSS */
+.checkout{
+    height: 88vh;
+    padding: 40px 0;
+    background-color: rgb(230, 195, 146); 
+}
+    .checkout .nav h1{
+        color: #444;
+        text-align: center;
+        }
+        
+        .checkout .nav p{
+            position: absolute;
+            right: 100px;
+            top: 30px;
+            background-color: rgb(211, 225, 238);
+            padding: 15px 20px;
+            font-weight: bolder;
+            color: #444;
+        }
+                .checkout .nav a{
+                    text-decoration: none;
+                    color: #444;
+                }   
+
+                    .checkout  h2{
+                        text-align: right;
+                        color: #444;
+                    }
+                        .checkout  h3{
+                            text-align: right;
+                            margin: 10px 0 30px 0;
+                            color: #444;
+                        }
+
+.checkout .table_data{
+    background-color: rgb(211, 225, 238);
+    padding: 20px 50px 50px 50px;
+    width: 700px;
+    margin: 60px auto;
+}
+    .checkout .table_data .remove {
+        text-align: center;
+    }
+        
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        background-color: #eee;    
+    }
+        th{
+            background-color: coral;
+        }
+            th, td {
+                padding: 8px;
+                text-align: left;
+                border-bottom: 1px solid black;
+            }
+                tr{
+                    border: 1px solid black;
+                }
+  
+                    tr:hover {
+                        background-color: rgb(230, 195, 146);     
+                    }
+
+.checkout .billing_info{
+    position: absolute;
+    bottom: 40px;
+    width: 760px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(211, 225, 238);
+    margin-left: 277px;
+}
+    .checkout .billing_info h2{
+        text-align: center;
+        color: #333;
+    }
+        .checkout .billing_info form{
+            width: 750px;
+            margin-left: 10px;
+            margin-top: 20px;
+        }
+
+            .checkout .billing_info form input[type=submit]{
+                padding: 5px;
+                background-color: coral;
+                border: none;
+                margin-top: 15px;
+                margin-left: 650px;
+}
+
